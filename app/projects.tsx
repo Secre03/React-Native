@@ -14,21 +14,21 @@ const Projects = () => {
         <View className="items-center">
           <Text className="font-bold mb-2 text-gray-500">Project 1</Text>
           <View className="px-6 py-10 border-2 rounded-2xl border-black items-center justify-center">
-            <Text className="font-semibold">Pares Overload</Text>
+            <Text className="font-semibold">E-commerce</Text>
           </View>
         </View>
 
         <View className="items-center">
           <Text className="font-bold mb-2 text-gray-500">Project 2</Text>
           <View className="px-8 py-10 border-2 rounded-2xl border-black items-center justify-center">
-            <Text className="font-semibold">Unli Coke</Text>
+            <Text className="font-semibold">Task Mangement System</Text>
           </View>
         </View>
 
         <View className="items-center">
           <Text className="font-bold mb-2 text-gray-500">Project 3</Text>
           <View className="px-8 py-10 border-2 rounded-2xl border-black items-center justify-center">
-            <Text className="font-semibold">Pride Tsikin</Text>
+            <Text className="font-semibold">AI Chatbot</Text>
           </View>
         </View>
 

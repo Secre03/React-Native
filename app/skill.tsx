@@ -14,19 +14,19 @@ const Skill = () => {
       <View className="flex-row flex-wrap justify-center gap-4 w-full">
 
         <View className="border-2 border-black rounded-2xl px-6 py-4 bg-gray-50">
-          <Text className="font-bold text-lg">Cooking</Text>
+          <Text className="font-bold text-lg">HTML</Text>
         </View>
 
         <View className="border-2 border-black rounded-2xl px-6 py-4 bg-gray-50">
-          <Text className="font-bold text-lg">Hard Working</Text>
+          <Text className="font-bold text-lg">CSS</Text>
         </View>
 
         <View className="border-2 border-black rounded-2xl px-6 py-4 bg-gray-50">
-          <Text className="font-bold text-lg">Business Minded</Text>
+          <Text className="font-bold text-lg">JS</Text>
         </View>
 
         <View className="border-2 border-black rounded-2xl px-6 py-4 bg-gray-50">
-          <Text className="font-bold text-lg">Competitive</Text>
+          <Text className="font-bold text-lg">PHP</Text>
         </View>
 
       </View>
