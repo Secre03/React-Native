@@ -29,6 +29,10 @@ const Skill = () => {
           <Text className="font-bold text-lg">PHP</Text>
         </View>
 
+        <View className="border-2 border-black rounded-2xl px-6 py-4 bg-gray-50">
+          <Text className="font-bold text-lg">React JS</Text>
+        </View>
+
       </View>
 
       <View className="mt-16">

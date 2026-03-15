@@ -21,7 +21,7 @@ const Projects = () => {
         <View className="items-center">
           <Text className="font-bold mb-2 text-gray-500">Project 2</Text>
           <View className="px-8 py-10 border-2 rounded-2xl border-black items-center justify-center">
-            <Text className="font-semibold">Task Mangement</Text>
+            <Text className="font-semibold">Task Management</Text>
           </View>
         </View>
 
