@@ -1,45 +1,37 @@
-import { useRouter } from "expo-router";
-import { View, Image, Text, Pressable } from "react-native";
+// import { useRouter } from "expo-router";
+import { View } from "react-native";
+import InfoCapsule from "@/components/InfoCapsule";
+import NavButton from "@/components/NavButton";
+
 
 export default function Index() {
-  const router = useRouter();
+
+
 
   return (
     <View className="flex-1 justify-center items-center bg-white px-6">
 
-      <Image
-        className="rounded-full"
-        source={require("../assets/images/image.png")} 
-        style={{ width: 150, height: 150 }} 
+      <InfoCapsule
+        img = {require("../assets/images/image.png")}
+        name = "Mark John Milano"
+        info= "Frontend Developer"
+        age= "20"
+        address = "Purok 3 Busay, Daraga, Albay"
       />
-      
-      <Text className="font-bold text-3xl text-center mt-6">
-        Mark John Milano
-      </Text>
-      
-      <Text className="text-gray-400 text-lg text-center mt-1">
-        Frontend Developer
-      </Text>
 
       <View className="flex-row justify-center items-center mt-10 gap-4">
 
-        <Pressable
-          className="bg-black rounded-full px-6 py-3 shadow-lg"
-          onPress={() => router.push("/projects")}
-        >
-          <Text className="text-white text-sm font-bold">
-            View My Projects
-          </Text>
-        </Pressable>
+       <NavButton
+        title = "View My Projects"
+        isDark = {true}
+        path = "/projects"
+       />
 
-        <Pressable
-          className="bg-white rounded-full px-6 py-3 shadow-lg"
-          onPress={() => router.push("/skill")}
-        >
-          <Text className="text-black text-sm font-bold">
-            My Skill
-          </Text>
-        </Pressable>
+       <NavButton
+        title = "My Skill"
+        isDark = {false}
+        path = "/skill"
+       />
 
       </View>
     </View>

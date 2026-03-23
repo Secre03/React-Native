@@ -8,6 +8,7 @@ const Skill = () => {
   return (
 
     <View className="flex-1 bg-white items-center justify-center px-6">
+      <View className="font-bold">Hi</View>
       
       <Text className="text-3xl font-bold mb-10">My Skills</Text>
 
